@@ -1,12 +1,4 @@
 
-let name = 'Renan';
-console.log(name);
-
-// Cannot be a reserved keyword
-// Should be meaningful
-// Cannot start with a number (1name)
-// Cannot contain a space or hyphen (-)
-// Are case-sensitive
-
-let firstName = 'Renan'; 
-let lastName = 'Albuquerque';
+const interestRate = 0.3;
+interestRate = 1;
+console.log(interestRate);
