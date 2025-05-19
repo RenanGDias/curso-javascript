@@ -1,14 +1,5 @@
 
-let person = {
-    name: 'Renan',
-    age: 20
-};
-
-// Dot Notation
-person.name = 'Ravi';
-
-// Bracket Notation
-let selection = 'name';
-person[selection] = 'Ronaldo';
-
-console.log(person.name);
+// Array Literal
+let selectedColors = ['red', 'blue'];
+selectedColors[2] = 1;
+console.log(selectedColors.length);
