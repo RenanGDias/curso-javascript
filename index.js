@@ -1,6 +1,14 @@
 
-let name = 'Renan'; // String Literal
-let age = 30; // Number Literal
-let isApproved = true; // Boolean Literal
-let firstName = undefined;
-let selectedColor = null;
+let person = {
+    name: 'Renan',
+    age: 20
+};
+
+// Dot Notation
+person.name = 'Ravi';
+
+// Bracket Notation
+let selection = 'name';
+person[selection] = 'Ronaldo';
+
+console.log(person.name);
